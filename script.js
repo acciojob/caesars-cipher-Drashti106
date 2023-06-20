@@ -36,7 +36,7 @@ let decodedStr = "";
 	 
 	for(let i = 0;i<encodedStr.length;i++){
 		if(lookup[encodedStr[i]] === undefined)
-		decodedStr += str[i];
+		decodedStr += encodedStrstr[i];
 		else
 		decodedStr += lookup[encodedStr[i]];
 	}
